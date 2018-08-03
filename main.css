@@ -1,0 +1,13 @@
+.main-container {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: inherit;
+}
+
+.logo {
+    text-align: center;
+    font-style: initial;
+}
