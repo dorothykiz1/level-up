@@ -90,6 +90,37 @@ body {
     margin-bottom: 25px;
 }
 
+.element1 label {
+    display: block;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 15px;
+    margin: 10px;
+}
+
+.phone-number {
+    display: flex;
+    height: 45px;
+    margin-bottom: 25px;
+}
+
+.phone-number select {
+    border: 1px solid #ddd;
+}
+
+.phone-number input {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 12px 35px;
+    font-size: 15px;
+}
+
+.element1 input:focus {
+    outline: none;
+    border-color: rgb(5, 155, 155);
+    font-size: 15px;
+}
+
 .element input:focus {
     outline: none;
     border-color: rgb(5, 155, 155);
