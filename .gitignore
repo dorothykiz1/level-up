@@ -4,3 +4,4 @@
 /tests/__pycache__
 /.nyc_output
 /venv
+/templates/__pycache__
