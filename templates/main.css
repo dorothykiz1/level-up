@@ -1,0 +1,175 @@
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: rgb(245, 245, 245);
+            font-family: helvetica Neue, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .top .logo {
+            padding: 10px 10px;
+            background: black;
+            color: white;
+            width: fit-content;
+            margin: auto;
+            font-size: small;
+        }
+        
+        .top .zero h2 {
+            font-size: 30px;
+            font-weight: 700;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .top .zero h3 {
+            font-size: 20px;
+            font-weight: 100;
+            margin-top: 15px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        
+        .main-form {
+            width: 500px;
+            margin: 0 auto;
+        }
+        
+        .form1 {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            text-align: left;
+        }
+        
+        .form1 .element {
+            margin-bottom: 30px;
+        }
+        
+        .form1 label {
+            display: block;
+            font-size: 15px;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        
+        .form1 input {
+            padding: 12px 20px;
+            width: 95%;
+            border: 1px solid #ddd;
+            height: 45px;
+            font-size: 15px;
+            margin-bottom: 25px;
+        }
+        
+        .form1 input:focus {
+            outline: none;
+            border-color: rgb(26, 179, 179);
+            font-size: 15px;
+        }
+        
+        .element label {
+            display: block;
+            font-size: 15px;
+            margin-bottom: 15px;
+            margin: 10px;
+            text-align: left;
+        }
+        
+        .element input {
+            padding: 12px 35px;
+            font-size: 15px;
+            width: 100%;
+            border: 1px solid #ddd;
+            height: 45px;
+            margin-bottom: 25px;
+        }
+        
+        .element1 label {
+            display: block;
+            font-size: 15px;
+            margin-bottom: 15px;
+            margin: 10px;
+            text-align: left;
+        }
+        
+        .element1 input {
+            padding: 12px 35px;
+            font-size: 15px;
+            width: 95%;
+            border: 1px solid #ddd;
+            height: 45px;
+            margin-bottom: 25px;
+        }
+        
+        .phone-number {
+            display: flex;
+            /* justify-content: center;*/
+            height: 45px;
+            margin-bottom: 25px;
+        }
+        
+        .phone-number select {
+            border: 1px solid #ddd;
+        }
+        /*
+        .phone-number input {
+            width: 36%;
+            border: 1px solid #ddd;
+            padding: 12px 35px;
+            font-size: 15px;
+        }
+        */
+        
+        .phone-number select:focus {
+            outline: none;
+            border-color: rgb(5, 155, 155);
+            font-size: 15px;
+        }
+        
+        .element1 input:focus {
+            outline: none;
+            border-color: rgb(5, 155, 155);
+            font-size: 15px;
+        }
+        
+        .element input:focus {
+            outline: none;
+            border-color: rgb(5, 155, 155);
+            font-size: 15px;
+        }
+        
+        a.code {
+            color: rgb(5, 155, 155);
+            text-decoration: none;
+            font-size: 13px;
+            /*text-align: left;*/
+        }
+        
+        button.main {
+            padding: 15px;
+            margin-top: 40px;
+            border: 1px solid white;
+            background: rgb(11, 163, 163);
+            color: rgb(233, 235, 235);
+            width: 100%;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+            text-transform: uppercase;
+            text-align: left;
+        }
+        
+        .seven p {
+            font-size: 13px;
+            text-align: center;
+        }
+        
+        .seven p a {
+            text-decoration: none;
+            color: rgb(32, 179, 179);
+        }
