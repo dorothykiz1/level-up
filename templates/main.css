@@ -3,7 +3,7 @@
         }
         
         body {
-            background-color: rgb(245, 245, 245);
+            background-color: rgb(245, 245, 245)
             font-family: helvetica Neue, Helvetica, sans-serif;
             margin: 0;
             padding: 0;
@@ -29,6 +29,20 @@
         .top .zero h3 {
             font-size: 20px;
             font-weight: 100;
+
+        
+        .main-f {
+            position: center;
+            justify-content: center;
+        }
+  
+        
+        .form1 {
+            display: flex;
+            width: 50%;
+            text-align: left;
+        }
+       
             margin-top: 15px;
             margin-bottom: 25px;
             text-align: center;
@@ -45,6 +59,7 @@
             width: 100%;
             text-align: left;
         }
+
         
         .form1 .element {
             margin-bottom: 30px;
@@ -78,8 +93,7 @@
             margin-bottom: 15px;
             margin: 10px;
             text-align: left;
-        }
-        
+					
         .element input {
             padding: 12px 35px;
             font-size: 15px;
@@ -116,6 +130,7 @@
         .phone-number select {
             border: 1px solid #ddd;
         }
+
         /*
         .phone-number input {
             width: 36%;
@@ -148,6 +163,7 @@
             text-decoration: none;
             font-size: 13px;
             /*text-align: left;*/
+
         }
         
         button.main {
