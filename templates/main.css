@@ -3,27 +3,19 @@
         }
         
         body {
-            background-color: rgb(245, 245, 245);
-            font-family: helvetica Neue, Arial, Helvetica, sans-serif;
+            background-color: rgb(245, 245, 245)
+            font-family: helvetica Neue, Helvetica, sans-serif;
             margin: 0;
             padding: 0;
-            justify-content: center;
-            text-align: center;
         }
-        /*
-        .main-container {
-            margin: auto;
-            justify-content: center;
-        }
-        */
         
         .top .logo {
             padding: 10px 10px;
             background: black;
             color: white;
             width: fit-content;
-            margin: 0 auto;
-            font-size: medium;
+            margin: auto;
+            font-size: small;
         }
         
         .top .zero h2 {
@@ -31,39 +23,43 @@
             font-weight: 700;
             margin-top: 50px;
             margin-bottom: 20px;
+            text-align: center;
         }
         
         .top .zero h3 {
             font-size: 20px;
             font-weight: 100;
-            margin-top: 5px;
-            margin-bottom: 20px;
-        }
+
         
         .main-f {
             position: center;
             justify-content: center;
         }
-        /*
-        form {
-            margin-left: 450px;
-        }
-        */
+  
         
         .form1 {
             display: flex;
             width: 50%;
             text-align: left;
         }
-        /*
-        .form1 .one {
-            margin-right: 0;
+       
+            margin-top: 15px;
+            margin-bottom: 25px;
+            text-align: center;
         }
         
-        .form1 .two {
-            margin-right: 0;
+        .main-form {
+            width: 500px;
+            margin: 0 auto;
         }
-        */
+        
+        .form1 {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            text-align: left;
+        }
+
         
         .form1 .element {
             margin-bottom: 30px;
@@ -78,7 +74,7 @@
         
         .form1 input {
             padding: 12px 20px;
-            width: 92%;
+            width: 95%;
             border: 1px solid #ddd;
             height: 45px;
             font-size: 15px;
@@ -87,7 +83,7 @@
         
         .form1 input:focus {
             outline: none;
-            border-color: rgb(17, 201, 201);
+            border-color: rgb(26, 179, 179);
             font-size: 15px;
         }
         
@@ -96,12 +92,12 @@
             font-size: 15px;
             margin-bottom: 15px;
             margin: 10px;
-        }
-        
+            text-align: left;
+					
         .element input {
             padding: 12px 35px;
             font-size: 15px;
-            width: 40%;
+            width: 100%;
             border: 1px solid #ddd;
             height: 45px;
             margin-bottom: 25px;
@@ -112,11 +108,21 @@
             font-size: 15px;
             margin-bottom: 15px;
             margin: 10px;
+            text-align: left;
+        }
+        
+        .element1 input {
+            padding: 12px 35px;
+            font-size: 15px;
+            width: 95%;
+            border: 1px solid #ddd;
+            height: 45px;
+            margin-bottom: 25px;
         }
         
         .phone-number {
             display: flex;
-            justify-content: center;
+            /* justify-content: center;*/
             height: 45px;
             margin-bottom: 25px;
         }
@@ -124,11 +130,19 @@
         .phone-number select {
             border: 1px solid #ddd;
         }
-        
+
+        /*
         .phone-number input {
             width: 36%;
             border: 1px solid #ddd;
             padding: 12px 35px;
+            font-size: 15px;
+        }
+        */
+        
+        .phone-number select:focus {
+            outline: none;
+            border-color: rgb(5, 155, 155);
             font-size: 15px;
         }
         
@@ -144,11 +158,12 @@
             font-size: 15px;
         }
         
-        .element2 a {
+        a.code {
             color: rgb(5, 155, 155);
             text-decoration: none;
             font-size: 13px;
-            text-align: left;
+            /*text-align: left;*/
+
         }
         
         button.main {
@@ -157,7 +172,7 @@
             border: 1px solid white;
             background: rgb(11, 163, 163);
             color: rgb(233, 235, 235);
-            width: 40%;
+            width: 100%;
             font-size: 15px;
             font-weight: bold;
             cursor: pointer;
@@ -167,6 +182,7 @@
         
         .seven p {
             font-size: 13px;
+            text-align: center;
         }
         
         .seven p a {
